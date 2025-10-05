@@ -29,9 +29,9 @@
         <label>Major</label> <span id="Major-info" class="info"></span><br />
         <select name="Major" id="Major" class="demoInputBox" required>
             <option value="">اختر التخصص</option>
-            <option value="ccc" <?php echo isset($Major) && $Major == 'ccc'? 'selected' : ''; ?>>ccc</option>
-            <option value="bbb" <?php echo isset($Major) && $Major == 'bbb'? 'selected' : ''; ?>>bbb</option>
-            <option value="ddd" <?php echo isset($Major) && $Major == 'ddd'? 'selected' : ''; ?>>ddd</option>
+            <option value="programming" <?php echo isset($Major) && $Major == 'programming'? 'selected' : ''; ?>>programming</option>
+            <option value="ComputerScience" <?php echo isset($Major) && $Major == 'ComputerScience'? 'selected' : ''; ?>>ComputerScience</option>
+            <option value="engineering" <?php echo isset($Major) && $Major == 'engineering'? 'selected' : ''; ?>>engineering</option>
             
 </select>
     </div>
